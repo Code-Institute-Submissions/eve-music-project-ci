@@ -1,39 +1,58 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# **User Centric Frontend Development Milestone Project - Harry Lewis**
+# eve DJ Website
+![eve Logo](assets/images/logo.png)
 
-Welcome USER_NAME,
+For this milestone project I decided to make a website spcecifically designed for the DJ group **eve**. By combining all the learning and study from the previous three modules I have designed a fully responsive front-end website using HTML5, CSS3, Boostootstrap and other CSS libraries/frameworks that will be credited further into this README.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+**eve** are a collective of three fermale DJ's residing in Dublin. They have a good online presence in the form of social media but have not got their own personal website. The benefits of this website for the client will be to increase their fan abse, gain them future bookings and give their users are expierience that will keep them coming back to the site.
 
-## Gitpod Reminders
+# UX
+The client wants a website where they can showcase their music/media from previous gigs to boost their fanbase and also have a site for returning fans to keep up to date with whats going on. They also want to have a section where they can be booked by promoters for future gigs.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+In summary the main focus of the website will be to:
+ * Desing a website that will lead to bookings & increase fan base
+ * Boost online presence
+ * Present a UX that will encourage users to return to the website
+ * Have easy access to all other platforms of media / online content for promotion of the artist
 
-`python3 -m http.server`
+## **User Stories**
+* As a fan, I want to see eve's upcoming gigs
+* As a DJ I want to showcase our music
+* As a promoter, I want to book this DJ
+* As a fan, I want to book this artist for a private event
+* As a fan, I want to listen to eve's previous mixes
 
-A blue button should appear to click: *Make Public*,
+## **Wireframes** ([drive link](https://drive.google.com/open?id=14eP_CmihxwgpibQSHMYj0-kUEvzBFqXD))
 
-Another blue button should appear to click: *Open Browser*.
+**Index Page**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Index wireframe](wireframes/index.png)
 
-A blue button should appear to click: *Make Public*,
+**Gigs Page**
 
-Another blue button should appear to click: *Open Browser*.
+![Gigs wireframe](wireframes/gigs.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+**Boiler Room Page**
 
-## Updates Since The Instructional Video
+![Boiler Room wireframe](wireframes/boiler-room.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+**Guest Mixes Page**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Guest Mixes wireframe](wireframes/guest-mixes.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Contact Page**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Contact wireframe](wireframes/contact.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Features
+ * Nav bar that has clear consice direction to lead the user to relevant media, music and contact
+ * Call out sectioin for bookings just below the hero video thats stands out to entice promoters and potential bookers
+ * An "about me section" on the index page to give first time viewiers an insight into who the client is
+ * Provide links to social media in the footer accross all pages for easy access to all social accounts
 
---------
+Future features:
 
-Happy coding!
+# Technologies Used 
+# Testing
+# Deployment
+# Credits
