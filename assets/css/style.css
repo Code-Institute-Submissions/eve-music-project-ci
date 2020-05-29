@@ -128,6 +128,14 @@ body {
 .controls {
     text-align: left;
 }
+/*-----------------------------About Us------*/
+.bio {
+    padding: 0;
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: none
+}
+
 
 /*-----------------------------Footer / Social links------*/
 footer {
