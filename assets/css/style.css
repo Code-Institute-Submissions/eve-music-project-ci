@@ -1,3 +1,18 @@
+/*------------------COLORS----------------------*/
+PINK {
+  color: rgb(251, 211, 255);
+}
+PINK2 {
+  color: rgb(248, 186, 253);
+}
+WHITE {
+  color: white;
+}
+BLACK {
+  color: black;
+}
+/*------------------------------------------------*/
+
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700&display=swap");
 
 * {
@@ -8,7 +23,7 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  color: whitesmoke;
+  color: white;
   background-color: black;
 }
 
@@ -33,7 +48,7 @@ body {
 }
 
 .navbar-nav a:hover {
-  color: rgb(251, 211, 255) !important;
+  color: rgb(248, 186, 253) !important;
   -o-transition: 0.8s;
   -ms-transition: 0.8s;
   -moz-transition: 0.8s;
@@ -108,4 +123,55 @@ body {
 .btn-primary.focus,
 .btn-light:focus {
   box-shadow: none;
+}
+
+/*-----------------------------Footer / Social links------*/
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+footer i:hover {
+  color: rgb(248, 186, 253);
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.social-networks {
+  text-align: center;
+  text-decoration: none;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 150%;
+  margin: 1%;
+  padding: 1%;
+  color: white;
+}
+
+.copyright {
+  color: white;
+  font-size: 10px;
+  list-style-type: none;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright a:hover {
+  color: rgb(248, 186, 253);
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
 }
