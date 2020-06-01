@@ -39,6 +39,10 @@ body {
   text-align: bottom;
 }
 
+.bg-light {
+  background-color: transparent !important;
+}
+
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
@@ -130,9 +134,17 @@ body {
 /*-----------------------------About Us------*/
 .bio {
     color: black;
+}
+.jumbotron-fluid {
     background-color: whitesmoke;
 }
-
+.jumbotron {
+    margin-bottom: 0;
+}
+.jumbotron p {
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
 .lead a {
     text-decoration: none;
     color: black;
@@ -146,6 +158,10 @@ body {
   -webkit-transition: 0.8s;
 }
 
+.bio-img {
+    max-width: 100%;
+    padding-bottom: 16px;
+}
 
 /*-----------------------------Footer / Social links------*/
 footer {
