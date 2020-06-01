@@ -225,7 +225,17 @@ body {
 .gig-items h4 {
   color: black;
 }
+/*-----------------------------Boiler Room------*/
 
+.boiler-vid {
+  width: 100%;
+  height: 700px;
+}
+@media screen and (max-width: 450px) {
+  .boiler-vid {
+    height: 500px;
+  }
+}
 /*-----------------------------Footer / Social links------*/
 footer {
   width: 100%;
