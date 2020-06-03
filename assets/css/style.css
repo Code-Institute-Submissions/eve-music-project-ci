@@ -8,6 +8,9 @@ PINK2 {
 WHITE {
   color: white;
 }
+WHITESMOKE {
+  color: whitesmoke;
+}
 BLACK {
   color: black;
 }
@@ -257,7 +260,6 @@ Used the code from https://stackoverflow.com/questions/31222675/using-css-to-cut
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-
 }
 
 /*-----------------------------Contact form------*/
@@ -273,7 +275,37 @@ Used the code from https://stackoverflow.com/questions/31222675/using-css-to-cut
 .form-heading {
   font-weight: lighter;
 }
+/*-----------------------------Guest Mixes------*/
 
+.gm-margin {
+  margin-bottom: 5px;
+}
+
+.guest-mixes {
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.guest {
+  font-weight: lighter;
+}
+.guest h1 {
+  font-weight: lighter;
+}
+
+.guest a {
+  color: white;
+}
+.guest a:hover {
+  color: rgb(248, 186, 253);
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+.guest p {
+  margin: 0;
+}
 /*-----------------------------Footer / Social links------*/
 footer {
   width: 100%;
