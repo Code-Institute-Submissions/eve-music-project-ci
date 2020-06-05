@@ -229,6 +229,11 @@ body {
 .gig-items h4 {
   color: black;
 }
+/*-----------------------------Gigs Hero img------*/
+
+.hero-img {
+  width: 100%;
+}
 /*-----------------------------Boiler Room------*/
 
 .boiler-vid {
@@ -247,19 +252,9 @@ body {
 Used the code from https://stackoverflow.com/questions/31222675/using-css-to-cut-off-left-and-right-side-of-an-image-while-scaling-a-window
 ------*/
 
-.contact-bg {
-  width: 100%;
-  height: 900px;
-  overflow: hidden;
-  position: relative;
-}
 
 .contact-img {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
 }
 
 /*-----------------------------Contact form------*/
@@ -268,12 +263,19 @@ Used the code from https://stackoverflow.com/questions/31222675/using-css-to-cut
 }
 .form-contact {
   background-color: rgba(255, 255, 255, 0.5);
+   margin: 20px;
   padding: 30px;
-  margin: 20px;
-  border-radius: 4px;
 }
 .form-heading {
   font-weight: lighter;
+}
+
+@media screen and (max-width: 450px) {
+  .form-contact {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 /*-----------------------------Guest Mixes------*/
 
@@ -306,6 +308,12 @@ Used the code from https://stackoverflow.com/questions/31222675/using-css-to-cut
 .guest p {
   margin: 0;
 }
+
+/*-----------------------------Gigs------*/
+.next-gig {
+  width: 100%;
+}
+
 /*-----------------------------Footer / Social links------*/
 footer {
   width: 100%;
