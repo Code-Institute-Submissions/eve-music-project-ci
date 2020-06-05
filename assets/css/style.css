@@ -181,8 +181,6 @@ body {
 }
 /*---------------------------Upcoming gigs------*/
 .coming-up {
-  border: 1px solid #e5e5e5;
-  border-radius: 4px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -247,12 +245,7 @@ body {
     padding-top: 0;
   }
 }
-/*-----------------------------Contact BG
-
-Used the code from https://stackoverflow.com/questions/31222675/using-css-to-cut-off-left-and-right-side-of-an-image-while-scaling-a-window
-------*/
-
-
+/*-----------------------------Contact Img--*/
 .contact-img {
   width: 100%;
 }
@@ -263,7 +256,7 @@ Used the code from https://stackoverflow.com/questions/31222675/using-css-to-cut
 }
 .form-contact {
   background-color: rgba(255, 255, 255, 0.5);
-   margin: 20px;
+  margin: 20px;
   padding: 30px;
 }
 .form-heading {
@@ -310,10 +303,46 @@ Used the code from https://stackoverflow.com/questions/31222675/using-css-to-cut
 }
 
 /*-----------------------------Gigs------*/
+.next-gig-poster video {
+  width: 100%;
+  padding: 2rem;
+}
+@media screen and (max-width: 450px) {
+  .next-gig-poster video {
+    padding: 0;
+  }
+}
+
 .next-gig {
+    color: black;
+    background-color: whitesmoke;
+        padding: 2rem 1rem;
+}
+
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+}
+#photos img {
   width: 100%;
 }
 
+@media screen and (max-width: 943px) {
+  #photos {
+    column-count: 3;
+  }
+}
+@media screen and (max-width: 800px) {
+  #photos {
+    column-count: 2;
+  }
+}
+
+.fa-facebook-f {
+    color: black;
+}
 /*-----------------------------Footer / Social links------*/
 footer {
   width: 100%;
