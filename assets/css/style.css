@@ -224,6 +224,7 @@ body {
 .gig-items {
   margin-bottom: 30px;
 }
+
 .gig-items h4 {
   color: black;
 }
@@ -239,6 +240,7 @@ body {
   height: 700px;
   padding-top: 5%;
 }
+
 @media screen and (max-width: 450px) {
   .boiler-vid {
     height: 500px;
@@ -319,23 +321,23 @@ body {
         padding: 2rem 1rem;
 }
 
-#photos {
+.photos {
   clear: both;
   line-height: 0;
   column-count: 4;
   column-gap: 0px;
 }
-#photos img {
+.photos img {
   width: 100%;
 }
 
 @media screen and (max-width: 943px) {
-  #photos {
+  .photos {
     column-count: 3;
   }
 }
 @media screen and (max-width: 800px) {
-  #photos {
+  .photos {
     column-count: 2;
   }
 }
