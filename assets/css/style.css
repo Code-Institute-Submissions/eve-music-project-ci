@@ -1,20 +1,19 @@
 /*------------------COLORS----------------------*/
 PINK {
-  color: rgb(251, 211, 255);
+  color: #fbd3ff;
 }
 PINK2 {
-  color: rgb(248, 186, 253);
+  color: #f8bafd;
 }
 WHITE {
-  color: white;
+  color: #fff;
 }
 WHITESMOKE {
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 BLACK {
-  color: black;
+  color: #000000;
 }
-/*------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700&display=swap");
 
@@ -26,13 +25,14 @@ BLACK {
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  color: white;
-  background-color: black;
+  color: #fff;
+  background-color: #000000;
 }
 /*-----------------------------Special Padding------*/
 .col {
   padding: 0;
 }
+
 .col-md-6 {
   padding-left: 0;
   padding-right: 0;
@@ -40,11 +40,10 @@ body {
 
 /*-----------------------------Nav Bar------*/
 .navbar-light .navbar-nav .nav-link {
-  color: whitesmoke;
+  color: #f5f5f5;
   letter-spacing: 3px;
   font-size: 20px;
   font-weight: lighter;
-  text-align: bottom;
 }
 
 .bg-light {
@@ -55,11 +54,11 @@ body {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: rgb(251, 211, 255);
+  color: #fbd3ff;
 }
 
 .navbar-nav a:hover {
-  color: rgb(248, 186, 253) !important;
+  color: #f8bafd !important;
   -o-transition: 0.8s;
   -ms-transition: 0.8s;
   -moz-transition: 0.8s;
@@ -67,18 +66,21 @@ body {
 }
 
 .navbar-toggler {
-  background-color: white;
-  border: 1px solid white;
+  background-color: #fff;
+  border: 1px solid #fff;
 }
+
 .navbar-brand {
   padding: 0;
   margin: 0;
   border: 0;
 }
+
 /*-----------------------------Hero Vid------*/
 .hero-vid {
   width: 100%;
 }
+
 /*-----------------------------Call Out------*/
 .alert {
   position: relative;
@@ -93,8 +95,8 @@ body {
 }
 
 .alert-dark {
-  background-color: rgb(255, 255, 255) !important;
-  color: black;
+  background-color: #fff !important;
+  color: #000000;
   font-size: 20px;
   font-weight: lighter;
 }
@@ -106,8 +108,8 @@ body {
 
 .call-out-btn {
   color: #fff;
-  background-color: rgb(251, 211, 255);
-  border-color: rgb(251, 211, 255);
+  background-color: #fbd3ff;
+  border-color: #fbd3ff;
   margin-bottom: 1rem;
 }
 
@@ -118,19 +120,21 @@ body {
   font-size: 20px;
   border-radius: 0.5rem;
 }
+
 .btn-light:hover {
   color: #fff;
-  background-color: rgb(248, 186, 253);
-  border-color: rgb(248, 186, 253);
+  background-color: #fbd3ff;
+  border-color: #f8bafd;
 }
 
 .btn-light:not(:disabled):not(.disabled).active,
 .btn-light:not(:disabled):not(.disabled):active,
 .show > .btn-light.dropdown-toggle {
   color: #fff;
-  background-color: rgb(248, 186, 253);
-  border-color: rgb(248, 186, 253);
+  background-color: #f8bafd;
+  border-color: #f8bafd;
 }
+
 .btn-primary.focus,
 .btn-light:focus {
   box-shadow: none;
@@ -139,27 +143,32 @@ body {
 .controls {
   text-align: left;
 }
+
 /*-----------------------------About Us------*/
 .bio {
-  color: black;
+  color: #000000;
 }
+
 .jumbotron-fluid {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
+
 .jumbotron {
   margin-bottom: 0;
 }
+
 .jumbotron p {
   margin-bottom: 0;
   padding-bottom: 16px;
 }
+
 .lead a {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .lead a:hover {
-  color: rgb(248, 186, 253) !important;
+  color: #f8bafd !important;
   -o-transition: 0.8s;
   -ms-transition: 0.8s;
   -moz-transition: 0.8s;
@@ -170,6 +179,7 @@ body {
   max-width: 100%;
   padding-bottom: 16px;
 }
+
 /*----------------------------SoundCloud Iframe*/
 .mixes-gigs p {
   padding-bottom: 16px;
@@ -179,6 +189,7 @@ body {
 .mixes-gigs {
   background-color: #f5f5f5;
 }
+
 /*---------------------------Upcoming gigs------*/
 .coming-up {
   padding-left: 16px;
@@ -188,7 +199,7 @@ body {
 .timeline-item {
   padding: 4em 2em 0em 2em;
   position: relative;
-  color: black;
+  color: #000000;
   border-left: 1px solid;
   padding-left: 16px;
 }
@@ -218,7 +229,7 @@ body {
   top: 2.6em;
   left: -6px;
   content: "";
-  background: black;
+  background: #000000;
 }
 
 .gig-items {
@@ -226,15 +237,15 @@ body {
 }
 
 .gig-items h4 {
-  color: black;
+  color: #000000;
 }
-/*-----------------------------Gigs Hero img------*/
 
+/*-----------------------------Gigs Hero img------*/
 .hero-img {
   width: 100%;
 }
-/*-----------------------------Boiler Room------*/
 
+/*-----------------------------Boiler Room------*/
 .boiler-vid {
   width: 100%;
   height: 700px;
@@ -247,6 +258,7 @@ body {
     padding-top: 0;
   }
 }
+
 /*-----------------------------Contact Img--*/
 .contact-img {
   width: 100%;
@@ -254,13 +266,14 @@ body {
 
 /*-----------------------------Contact form------*/
 .contact {
-  color: white;
+  color: #ffffff;
 }
+
 .form-contact {
-  background-color: rgba(255, 255, 255, 0.5);
   margin: 20px;
   padding: 30px;
 }
+
 .form-heading {
   font-weight: lighter;
 }
@@ -272,34 +285,36 @@ body {
     margin-right: 0;
   }
 }
-/*-----------------------------Guest Mixes------*/
 
+/*-----------------------------Guest Mixes------*/
 .gm-margin {
   margin-bottom: 5px;
 }
 
 .guest-mixes {
   padding: 16px;
-  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .guest {
   font-weight: lighter;
 }
+
 .guest h1 {
   font-weight: lighter;
 }
 
 .guest a {
-  color: white;
+  color: #fff;
 }
+
 .guest a:hover {
-  color: rgb(248, 186, 253);
+  color: #f8bafd;
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
 }
+
 .guest p {
   margin: 0;
 }
@@ -309,6 +324,7 @@ body {
   width: 100%;
   padding: 2rem;
 }
+
 @media screen and (max-width: 450px) {
   .next-gig-poster video {
     padding: 0;
@@ -316,9 +332,9 @@ body {
 }
 
 .next-gig {
-    color: black;
-    background-color: whitesmoke;
-        padding: 2rem 1rem;
+  color: #000000;
+  background-color: #f5f5f5;
+  padding: 2rem 1rem;
 }
 
 .photos {
@@ -327,6 +343,7 @@ body {
   column-count: 4;
   column-gap: 0px;
 }
+
 .photos img {
   width: 100%;
 }
@@ -336,6 +353,7 @@ body {
     column-count: 3;
   }
 }
+
 @media screen and (max-width: 800px) {
   .photos {
     column-count: 2;
@@ -343,7 +361,7 @@ body {
 }
 
 .fa-facebook-f {
-    color: black;
+  color: #000000;
 }
 
 /*-----------------------------Footer / Social links------*/
@@ -352,7 +370,7 @@ footer {
 }
 
 footer i:hover {
-  color: rgb(248, 186, 253);
+  color: #f8bafd;
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -372,11 +390,11 @@ footer i:hover {
   font-size: 150%;
   margin: 1%;
   padding: 1%;
-  color: white;
+  color: #ffffff;
 }
 
 .copyright {
-  color: white;
+  color: #ffffff;
   font-size: 10px;
   list-style-type: none;
   letter-spacing: 4px;
@@ -386,11 +404,11 @@ footer i:hover {
 
 .copyright a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .copyright a:hover {
-  color: rgb(248, 186, 253);
+  color: #f8bafd;
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
   -moz-transition: 0.5s;
