@@ -29,6 +29,8 @@ In summary the main focus of the website will be to:
 
 ## **Wireframes & Features**
 
+a:hover will be used on various clickable links throught the website. With the cursor hovered of the anchor it will turn pink. Look out for the nav bar tabs, buttons and social media icons.
+
 ![Index wireframe](wireframes/index.png)
 
 ### **Index Page**
@@ -71,11 +73,11 @@ Photo's of the eve DJ's will be on show here to give the users a feel as to who 
 
 This Feature will show users the next four gigs that the eve DJ's have been booked for. This will also be developed further as a future feature.
 
-#### **Soundcloud iframe**
+#### **Feature 7 - Soundcloud iframe**
 
-The Soundcloud iframe will give users the ability to listento the mixes that they have uploaded to the eve Soundcloud from the eve website.
+The Soundcloud iframe will give users the ability to listento the mixes that they have uploaded to the eve Soundcloud from the eve website. Autoplay is enabled on the index page as the client wanted the mix to play automatically when the page is opened.
 
-#### **footer**
+#### ** Feature 8 - Footer**
 
 The footer which is accross all pages of the website has links to all of eve's social media accounts, Facebook, Soundcloud, Instagram and a final link with a letter icon that take the user to the contact page of the website.
 
@@ -116,19 +118,58 @@ There will be two forms here on the contact page for users to use. One is for a 
 
 All entries have validation on so that the user will have to have all relevent information filled in before they can submit their message.
 
-Future features:
+## Future features:
+- Pull data from event pages to automatically update the "Upcoming gigs" on the index page and "Next Gig" section.
+
+- automatically upload poster form event page to the "Previous Gigs" photo gallary section. 
 
 # Technologies Used
 - HTML5 
-- CCS
-- Bootstrap - CSS, Javascript & JQuery styling 
+- CCS3
+- Bootstrap - CSS, JavaScript & JQuery styling 
 - https://favicon.io/ - To create the favicon
 - Font Awesome - for use of icons throght the website
 - Google Fonts
+- GitHub / Gitpod
 
+# Testing 
+## Nav Bar
+Using Google Chrome Dev tools during the development of the nav bar testing was carried out accross all types of mobile devices to make sure the responsive parameters of the nav bar were working. I would also resize the screen manually to see if the breakpoints were collapsing the nav bar at the correct size. Last thing was to check all nav bar tabs lead to the correct destination. 
 
-# Testing
+## Hero Video
+Check across all platforms to make sure it always maintained 100% width. And also that the "loop" and "autoplay" functions worked across multiple browsers.
+
+## Forms
+The first form to check was on the index page. I made sure the validation setting was working and that the modal worked on desktop, ipad, and iphone. The same check were made with teh forms on the contact page. 
+
+**Known Issue**
+A known issue with the forms is the mailto. This will be implemented once knowledge is gained.
+
+## Carosuel
+Once all images were added the the code for the carosuel I would deploy the page in a browser to check if the Bootstrap javascript was working. 
+
+## iframes
+all the iframes we tested on Chrome, Firefox, Safari and internet explorer to make sure that music is able to be played on all browsers. I had also tested it on my iphone to see if it played on the Safari mobile broswer and chrome browser. The autoplay for the index page and Boiler ROom was also tested and working. 
+
+## Icons / Social links
+All anchored elements were tested to make sure that the correct website address had been enetered and target="_blank" was functional. 
+
+### **W3C validator was also used to make sure all code was valid**
 
 # Deployment
+Github Pages was the main source for deployement and can be run online from this link:
+https://harryhenrylewis.github.io/eve-music-project-ci/
+
+To run this site locally you can clone or run on desktop by doing the following steps: 
+
+1. visit https://github.com/harryhenrylewis/eve-music-project-ci
+
+![clone image](assets/images/clone.jpg)
+
+2. Click the green "clone or download" button 
+
+3. select which method you prefere
+
 
 # Credits
+All media and content of eve DJ's was provided by eve. 
