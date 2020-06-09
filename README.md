@@ -28,9 +28,6 @@ In summary the main focus of the website will be to:
 - As a fan, I want to listen to eve's previous mixes
 
 ## **Wireframes & Features**
-
-a:hover will be used on various clickable links throught the website. With the cursor hovered of the anchor it will turn pink. Look out for the nav bar tabs, buttons and social media icons.
-
 ![Index wireframe](wireframes/index.png)
 
 ### **Index Page**
@@ -63,7 +60,7 @@ The about us section will give new/first time users a brief but detailed introdu
 
 #### **Feature 4 - Booking Call out**
 
-This section will allow users who are interested having a private even to send the eve DJ's a direct message. By clicking the "book us here" buttong a For will pop up on screen for them to fill out. The forms also have validation on all entries so they cannot enter incorrect or no information.
+This section will allow users who are interested having a private even to send the eve DJ's a direct message. By clicking the "book us here" button a form will pop up on screen for the user to fill out. The forms also have validation on all entries so they cannot enter incorrect or no information.
 
 #### **Feature 5 - Image Carosuel**
 
@@ -118,6 +115,11 @@ There will be two forms here on the contact page for users to use. One is for a 
 
 All entries have validation on so that the user will have to have all relevent information filled in before they can submit their message.
 
+
+### **a:hover**
+This feature will be used on various clickable links throught the website. With the cursor hovered of the anchor it will turn pink. Look out for the nav bar tabs, buttons and social media icons.
+
+
 ## Future features:
 - Pull data from event pages to automatically update the "Upcoming gigs" on the index page and "Next Gig" section.
 
@@ -133,28 +135,45 @@ All entries have validation on so that the user will have to have all relevent i
 - GitHub / Gitpod
 
 # Testing 
+
 ## Nav Bar
 Using Google Chrome Dev tools during the development of the nav bar testing was carried out accross all types of mobile devices to make sure the responsive parameters of the nav bar were working. I would also resize the screen manually to see if the breakpoints were collapsing the nav bar at the correct size. Last thing was to check all nav bar tabs lead to the correct destination. 
 
+All the tests were tested on Google Chrome and Safari mobile browsers.
+
 ## Hero Video
-Check across all platforms to make sure it always maintained 100% width. And also that the "loop" and "autoplay" functions worked across multiple browsers.
+Checked across all platforms to make sure it always maintained 100% width. And also that the "loop" and "autoplay" functions worked across multiple browsers. 
+
 
 ## Forms
 The first form to check was on the index page. I made sure the validation setting was working and that the modal worked on desktop, ipad, and iphone. The same check were made with teh forms on the contact page. 
-
-**Known Issue**
-A known issue with the forms is the mailto. This will be implemented once knowledge is gained.
 
 ## Carosuel
 Once all images were added the the code for the carosuel I would deploy the page in a browser to check if the Bootstrap javascript was working. 
 
 ## iframes
-all the iframes we tested on Chrome, Firefox, Safari and internet explorer to make sure that music is able to be played on all browsers. I had also tested it on my iphone to see if it played on the Safari mobile broswer and chrome browser. The autoplay for the index page and Boiler ROom was also tested and working. 
+All the iframes we tested on Chrome, Firefox, Safari and internet explorer to make sure that music is able to be played on all browsers. I had also tested it on my iphone to see if it played on the Safari mobile broswer and chrome browser. The autoplay for the index page and Boiler Room was also tested and working. 
+
+## a:hover
+All anchors with the hover feature were tested on Chrome, Firefox, Safari and internet explorer and worked accordingly.
 
 ## Icons / Social links
 All anchored elements were tested to make sure that the correct website address had been enetered and target="_blank" was functional. 
 
-### **W3C validator was also used to make sure all code was valid**
+## Pending Known Issues
+1. A known issue with the forms is the mailto. This will be implemented once knowledge is gained.
+
+1. Dropdown menu on Safari mobile browswer is showing a blue box around "Guest Mixes" when clicked.
+
+1. The Facebook social icon on the footer has a small blue line to the right when highlighted.
+
+**Fixed Issues**
+
+- On mobile devices the buttons used when clicked were highlighting in a different color. Later corrected using Chrome dev tools to find the bootstrap class that was causing this and corrected using CSS.
+
+
+## Validation
+W3C validator was used to make sure all code was valid
 
 # Deployment
 Github Pages was the main source for deployement and can be run online from this link:
@@ -162,14 +181,23 @@ https://harryhenrylewis.github.io/eve-music-project-ci/
 
 To run this site locally you can clone or run on desktop by doing the following steps: 
 
-1. visit https://github.com/harryhenrylewis/eve-music-project-ci
-
 ![clone image](assets/images/clone.jpg)
+1. Visit the repository at https://github.com/harryhenrylewis/eve-music-project-ci
+1. Click the green "clone or download" button.
+1. Click the clipboard icon to copy the link.
+1. Open your IDE and navigate to a new terminal window.
+1. Change the directory where you want to clone the repository to.
 
-2. Click the green "clone or download" button 
+Or by downloading the zip:
 
-3. select which method you prefere
+1. Click the "Downlaod Zip" button.
+1. Extract the zip file.
+1. Click teh files to run them in your browser. 
+
+
 
 
 # Credits
 All media and content of eve DJ's was provided by eve. 
+ 
+Please note this website is for educational purposes only. 
